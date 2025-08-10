@@ -1,0 +1,24 @@
+{
+  "id": "custom-ttrpg",
+  "title": "Custom TTRPG System",
+  "version": "0.0.1",
+  "description": "Professional modular TTRPG system with editable character sheets, class progression, dynamic menus, spell casting, inventory management, combat tracking, feat system, compendium manager, equipment manager, and abilities manager",
+  "authors": [{"name":"Your Name","url":""}],
+  "compatibility": {"minimum":10,"verified":"11"},
+  "esmodules": [
+    "module/init.js",
+    "test-system.js"
+  ],
+  "styles": [
+    "styles/custom-ttrpg.css"
+  ],
+  "languages": [
+    {"lang": "en", "name": "English", "path": "lang/en.json"}
+  ],
+  "packs": [],
+  "documentTypes": {
+    "Actor": {
+      "types": ["character", "npc"]
+    }
+  }
+}
